@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Petrona:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #1A5D3A;
+  --color-earth: #8B6B4A;
+  --color-sunrise: #E87A3E;
+  --color-cream: #FDF8F0;
+  --color-moss: #2D3E2D;
+  --color-mint: #75C9A4;
+
+  --font-headline: 'Manrope', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-metric: 'Space Grotesk', monospace;
+  --font-quote: 'Petrona', serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-moss);
+  font-family: var(--font-body);
+  /* smooth scrolling */
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline);
+}
+
+.font-metric {
+  font-family: var(--font-metric);
+}
+
+.font-quote {
+  font-family: var(--font-quote);
+}
+
+.leaf-shape {
+  border-radius: 40% 0 40% 0;
+}
+
+.leaf-shape-reverse {
+  border-radius: 0 40% 0 40%;
+}
