@@ -1,6 +1,6 @@
 {
-  "name": "GREEN SCENE MY",
+  "name": "Green Scene Malaysia",
   "description": "Malaysia's go-to source for environmental, social, and governance (ESG) news.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

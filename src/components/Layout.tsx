@@ -142,11 +142,11 @@ export function Layout({ children }: { children: ReactNode }) {
             </div>
 
             <div className="space-y-4">
-              <h4 className="font-bold text-white tracking-wide uppercase">Partners</h4>
+              <h4 className="font-bold text-white tracking-wide uppercase">ESG Topics</h4>
               <ul className="space-y-2 text-cream/80">
-                <li>Bursa Malaysia</li>
-                <li>Sustainable MY</li>
-                <li><Link to="/sectors/gaming" className="hover:text-sunrise">Platinum Casino ESG</Link></li>
+                <li><Link to="/news" className="hover:text-sunrise">Environmental Commitments</Link></li>
+                <li><Link to="/news" className="hover:text-sunrise">Social Impact & welfare</Link></li>
+                <li><Link to="/news" className="hover:text-sunrise">Governance Transparency</Link></li>
               </ul>
             </div>
           </div>

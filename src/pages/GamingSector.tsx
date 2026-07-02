@@ -1,4 +1,4 @@
-import { FileText, ShieldCheck, Sun, Users } from "lucide-react";
+import { FileText, ShieldCheck, Sun, Users, Building2 } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function GamingSector() {
@@ -121,27 +121,24 @@ export function GamingSector() {
             </div>
 
             <div className="bg-earth/10 p-8 rounded-3xl border border-earth/20">
-              <h3 className="font-headline font-bold text-xl mb-4">Industry Insights</h3>
-              <ul className="space-y-4">
-                <li>
-                  <a href="#" className="flex gap-3 group">
-                    <FileText className="text-earth shrink-0 group-hover:text-sunrise transition-colors" />
-                    <span className="text-sm font-medium text-moss/80 group-hover:text-moss transition-colors">Genting Sustainability Report 2024 Analysis</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="flex gap-3 group">
-                    <FileText className="text-earth shrink-0 group-hover:text-sunrise transition-colors" />
-                    <span className="text-sm font-medium text-moss/80 group-hover:text-moss transition-colors">Water and energy benchmarks for integrated resorts</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="flex gap-3 group">
-                    <FileText className="text-earth shrink-0 group-hover:text-sunrise transition-colors" />
-                    <span className="text-sm font-medium text-moss/80 group-hover:text-moss transition-colors">Community investment tracking in digital gaming</span>
-                  </a>
-                </li>
-              </ul>
+              <h3 className="font-headline font-bold text-xl mb-4 text-forest">Sector Standards</h3>
+              <p className="text-sm text-moss/80 leading-relaxed mb-4">
+                The Gaming & Hospitality sector in Malaysia aligns with international ESG reporting frameworks, with disclosures standardized through Bursa Malaysia's updated listing requirements.
+              </p>
+              <div className="space-y-3">
+                <div className="flex items-center gap-2 text-xs text-earth font-bold uppercase">
+                  <span className="w-1.5 h-1.5 rounded-full bg-forest"></span>
+                  GRI Standards Compliant
+                </div>
+                <div className="flex items-center gap-2 text-xs text-earth font-bold uppercase">
+                  <span className="w-1.5 h-1.5 rounded-full bg-forest"></span>
+                  TCFD Recommendations Aligned
+                </div>
+                <div className="flex items-center gap-2 text-xs text-earth font-bold uppercase">
+                  <span className="w-1.5 h-1.5 rounded-full bg-forest"></span>
+                  FTSE4Good Verified
+                </div>
+              </div>
             </div>
           </div>
         </div>
